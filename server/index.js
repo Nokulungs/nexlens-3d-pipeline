@@ -9,7 +9,7 @@ const app = express();
 // --- 🌐 UPDATED CORS FOR YOUR LIVE APP ---
 const allowedOrigins = [
     "http://localhost:5173",                            // Local Development
-    "https://nexlens-3d-pipeline-adjc.vercel.app" 
+    "https://nexlens-3d-pipeline-adjc.vercel.app",
     "https://nexlens-3d-pipeline-adjc.vercel.app/" // YOUR LIVE FRONTEND
 ];
 
