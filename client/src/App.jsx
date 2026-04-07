@@ -14,7 +14,7 @@ const App = () => {
 
     setLoading(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/create-learning-module', {
+      const res = await axios.post('https://nexlens-3d-pipeline.onrender.com/api/create-learning-module', {
         prompt: prompt.toLowerCase()
       });
       setData(res.data);
