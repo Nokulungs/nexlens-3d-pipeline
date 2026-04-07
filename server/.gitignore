@@ -1,0 +1,12 @@
+# Security: Sensitive Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build & Dependencies
+node_modules/
+dist/
+build/
+.DS_Store
